@@ -1,0 +1,141 @@
+$primary:#858585;
+
+//Bootstrap
+@import"../bootstrap/scss/bootstrap";
+
+body{
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 300;
+}
+
+.website-title{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+
+}
+
+a{
+	color: &secondary;
+
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+.nav-link{
+	&:hover{
+		color:rgba(133, 133, 133, 0.5);
+	}
+	&.active{
+		color: #F4ADAD;
+	}
+}
+
+p{
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+//--------------------------------
+
+.products-masonry{
+	.card{
+		text-align: center;
+		border: none;
+		margin-bottom: 40px;
+
+		h2{
+			text-transform: uppercase;
+			font-weight: 300;
+
+			&::before{
+				content: "";
+				display: block;
+				width: 70px;
+				height: 2px;
+				background: $primary;
+				margin: 15px auto 30px;
+			}
+		}
+
+		p{
+			color: $primary;
+			font-weight: 200;
+		}
+	}
+}
+
+// _____________________________________
+
+.featured-post{
+	min-height: 400px;
+}
+
+.featured-post-inner{
+	.featured-post-info{
+		background:rgba(33,37,41,0.40);
+		color: #fff;
+		padding: 10px 35px;
+
+		h4{
+			font-size: 20px;
+
+		}
+
+		p{
+		font-size: 14px;
+		}
+
+		.post-meta{
+			font-size: 12px;
+		}
+	}
+
+	&.featured-post-1{
+		background-image: url(../img/ln-1.jpg);
+		background-position:center;
+		background-size: cover;
+	}
+	&.featured-post-2{
+		background-image: url(../img/ln-2.jpg);
+		background-position:center;
+		background-size: cover;
+	}
+}
+
+.post{
+	img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	h4{
+		font-size: 18px;
+	
+
+	&::after{
+		content: "";
+		display: block;
+		width: 40px;
+		height: 1.5px;
+		background:$primary;
+		margin-top: 10px;
+		}
+	}
+	p{
+		font-size: 14px;
+	}
+
+	.post-meta{
+		font-size:13px;
+	}
+}
+
+// ________________________________
+
+#btn-sticky{
+	position: fixed;
+	top: 850px;
+	left: 50px;
+	z-index: +1;
+}

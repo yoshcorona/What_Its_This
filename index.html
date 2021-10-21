@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>WIT!?</title>
+	<script src="https://kit.fontawesome.com/ab7e1280f4.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!-- Home button -->
+<a id="btn-sticky" href="#home" class="text-warning"><i class="fas fa-angle-double-up fa-2x"></i></a>
+
+<!-- Header -->
+	<header>
+		<div id="home" class="container">
+			<div class="row justify-content-lg-between justify-content-center py-3 align-items-center">
+			<div class="col col-auto order-2 order-lg-1">
+				<ul class="nav">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Inicio</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#blog" class="nav-link">Blog</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#misempresas" class="nav-link">Empresas</a>
+					</li>
+				</ul>
+			</div>
+
+            
+             <div class="col-12 col-lg text-center col-auto order-1 order-lg-2">
+             	<h1><a class="text-dark website-title" href="#">What Is This!?</a></h1>
+             </div>
+
+            <div class="col col-auto order-3">
+				<ul class="nav">
+					<li class="nav-item">
+						<a href="#mitienda" class="nav-link">Tienda</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#noticias" class="nav-link">Noticias</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#micontacto" class="nav-link">Contacto</a>
+					</li>
+				</ul>
+			</div>
+
+          </div>
+		</div>
+	</header>
+
+<!-- Carousel -->
+
+	<section id="mitienda"  class="main">
+		<div class="container">
+
+			<section class="row main-carousel">
+				<div class="col">
+
+					<div id="carouselDestacado" class="carousel slide" data-ride="carousel" data-interval="7000">
+
+						<ol class="carousel-indicators">
+							<li data-target="#carouselDestacado" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselDestacado" data-slide-to="1"></li>
+							<li data-target="#carouselDestacado" data-slide-to="2"></li>
+							<li data-target="#carouselDestacado" data-slide-to="3"></li>
+							<li data-target="#carouselDestacado" data-slide-to="4"></li>
+						</ol>
+						
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="img/cl-1.jpg" class="d-block w-100" alt="">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Space X Dragon Capsule</h5>
+									<p>La SpaceX Dragon, también conocida como Dragon 1 o Cargo Dragon, fue una clase de nave reutilizada de carga desarrollada por SpaceX, una empresa de transporte espacial estadounidense</p>
+
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<img src="img/cl-2.jpg" class="d-block w-100" alt="">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Falcon 9 </h5>
+									<p>El Falcon 9 es un vehículo de lanzamiento parcialmente reutilizable de dos etapas diseñado y fabricado por SpaceX.</p>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<img src="img/cl-3.jpg" class="d-block w-100" alt="">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Observatorio Astronómico Nacional de Chile </h5>
+									<p>El Observatorio Astronómico Nacional de Chile (OAN) está situado en la cima del Cerro Calán y depende del Departamento de Astronomía de la Universidad de Chile</p>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<img src="img/cl-4.jpg" class="d-block w-100" alt="">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Mars Perseverance 2020</h5>
+									<p>Perseverance es el último rover del Planeta Rojo de la NASA, diseñado para buscar evidencia astrobiológica de vida microbiana antigua en Marte.</p>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<img src="img/cl-5.jpg" class="d-block w-100" alt="">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Cybertruck</h5>
+									<p>Cybertruck está fabricado con un revestimiento exterior hecho para máxima durabilidad y protección de los pasajeros.</p>
+								</div>
+							</div>
+						</div>
+
+						<a href="#carouselDestacado" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+
+						<a href="#carouselDestacado" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span>
+							<span class="sr-only">Siguiente</span>
+						</a>
+
+					</div>
+					
+				</div>
+			</section>
+
+<!-- Masonry Products -->
+	<section class="row products-masonry-container">
+				<div class="col">
+					
+					<div class="products-masonry-filter mt-4 mt-lg-5 mb-4 border-top border-bottom py-2">
+						<ul class="nav nav-pills nav-fill">
+							<li class="nav-item">
+								<a href="#todos" class="nav-link active" data-toggle="tab">Todos</a>
+							</li>
+
+							<li class="nav-item">
+								<a href="#sillas" class="nav-link" data-toggle="tab">Tesla</a>
+							</li>
+
+							<li class="nav-item">
+								<a href="#mesas" class="nav-link" data-toggle="tab">Porsche</a>
+							</li>
+
+							<li class="nav-item">
+								<a href="#bolsos" class="nav-link" data-toggle="tab">Otros</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="products-masonry">
+						<div class="tab-content">
+
+							<div class="tab-pane show fade active" id="todos"> 
+								<div class="card-columns">
+
+									<div class="card">
+										<img src="img/tesla-1.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Tesla Roadster</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/lucid-1.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Lucid</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/porsche-1.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Porsche Taycan</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/audi-1.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Audi E-tron</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/tesla-2.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Tesla Cybertruck.</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/lucid-2.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Lucid.</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+								</div>
+							    </div>
+
+							<div class="tab-pane fade" id="sillas"> 
+								<div class="card-columns">
+
+									<div class="card">
+										<img src="img/tesla-1.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Tesla Roadster</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/tesla-2.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Tesla Cybertruck</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/tesla-3.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Tesla Model Y</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/tesla-4.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Tesla Model S</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/tesla-5.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Tesla Model X</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/tesla-6.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Tesla Semi Truck</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+								</div>
+							    </div>
+
+							<div class="tab-pane fade" id="mesas"> 
+                                 	
+                                 	<div class="card-columns">
+									<div class="card">
+										<img src="img/porsche-1.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Porsche Taycan White</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/porsche-2.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Porsche Taycan White</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/porsche-3.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Porsche Taycan White Blue</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/porsche-4.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Interior Porsche Taycan</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/porsche-5.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Porsche Taycan Pink</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/porsche-6.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Porsche Taycan Red</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="tab-pane fade" id="bolsos"> 
+								
+									<div class="card-columns">
+
+									<div class="card">
+										<img src="img/lucid-1.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Lucid</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/Audi-1.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Audi E-tron</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/neuronev-1.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Neuronev</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/tavascan-1.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Tavascan</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/rivian-1.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Rivian.</h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+
+									<div class="card">
+										<img src="img/audi-2.jpg" class="card-img-top" alt="">
+										<h2 class="card-title">Audio E-tron </h2>
+										<p class="card-body">Lorem, ipsum dolor sit amet.</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+                    <div class="call-to-action-container text-center border-bottom border-top mb-5 py-5">
+                    	<p>Visita nuestra tienda completa y escoge el producto que más te guste</p>
+                    	<a href="#" class="btn btn-primary font-weight-light text-uppercase">Ver tienda</a>
+                    </div>
+                  
+				</div>
+	</section>
+
+<!-- Collapse -->
+
+
+	<div id="misempresas" class="container mt-5">
+		<div class="row my-3  pb-5 border-bottom">
+			<div class="col">
+
+				<h3 class="text-center pb-3">-EMPRESAS TECNOLÓGICAS-</h3>
+				
+				<div id="Acordeon">
+					
+					<div class="card">
+						<div class="card-header">
+							<button class="btn btn-link primary" data-toggle="collapse" data-target="#contenido1">TESLA</button>
+						</div>
+					</div>
+
+					<div id="contenido1" class="collapse" data-parent="#Acordeon">
+						<div class="card">
+							<div class="card-body">
+							<p>	Tesla, Inc. (anteriormente, Tesla Motors, Inc.) es una empresa estadounidense con sede en Palo Alto, California, y liderada por Elon Musk, que diseña, fabrica y vende automóviles eléctricos, componentes para la propulsión de vehículos eléctricos y baterías domésticas.</p>
+
+							<img src="img/tesla.jpg" class="d-block w-100" alt="">
+						</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header">
+							<button class="btn btn-link" data-toggle="collapse" data-target="#contenido2">NEURALINK</button>
+						</div>
+					</div>
+
+					<div id="contenido2" class="collapse" data-parent="#Acordeon">
+						<div class="card">
+							<div class="card-body">
+							<p>	Neuralink Corporation es una empresa de neurotecnología especializada en el desarrollo de interfaces cerebro-computadora, implantables, también conocidos como Brain-Machine Interfaces o BMI, fundada por Elon Musk. Actualmente se encuentran desarrollando un dispositivo capaz de tratar pacientes que sufran de discapacidades causadas por desórdenes neurológicos mediante estimulación cerebral directa.</p>
+
+							
+
+							<img src="img/neuralink.jpeg" class="d-block w-100" alt="">
+						</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header">
+							<button class="btn btn-link" data-toggle="collapse" data-target="#contenido3">SPACE X</button>
+						</div>
+					</div>
+
+					<div id="contenido3" class="collapse" data-parent="#Acordeon">
+						<div class="card">
+							<div class="card-body">
+							<p>Space Exploration Technologies Corp., conocida como SpaceX, es una empresa estadounidense de fabricación aeroespacial y de servicios de transporte espacial con residencia en Hawthorne (California). Fue fundada en 2002 por Elon Musk con el objetivo de reducir los costes de viajar al espacio para facilitar la colonización de Marte.</p>
+
+							<img  src="img/spacex.jpg" class="d-block w-100" alt="">
+						</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Articulos -->
+
+    <section id="noticias" class="row latest-news my-5 ">
+    	<div class="col-lg mb-3 mb-lg-0">
+    		<div class="featured-post h-100">
+    			<div id="featuredPostCarousel" class="carousel slide h-100" data-interval="false">
+    				<div class="carousel-inner h-100">
+
+    					<a href="#featuredPostCarousel" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+
+						<a href="#featuredPostCarousel" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span>
+							<span class="sr-only">Siguiente</span>
+						</a>
+
+    					<div class="carousel-item active h-100">
+    						<div class="featured-post-inner h-100 d-flex align-items-end featured-post-1">
+    						  <div class="featured-post-info w-100">
+    							<h4>Crew Dragon</h4>
+    							<p>Este 23 de octubre la Falcon 9 transportará a la cápsula con cuatro astronautas hasta la Estación Espacial Internacional.</p>
+    							<p class="post-meta d-flex justify-content-between">
+    								<span>Por NASA</span>
+    								<span>23 de Julio de 2020</span>
+    							</p>
+    						</div>
+    					  </div>
+    					</div>
+
+    					<div class="carousel-item h-100">
+    						<div class="featured-post-inner h-100 d-flex align-items-end featured-post-2">
+    						<div class="featured-post-info w-100">
+    							<h4>Neptuno</h4>
+    							<p>Neptuno será visible desde la Tierra este viernes.</p>
+    							<p class="post-meta d-flex justify-content-between">
+    								<span>Por Paul Smith</span>
+    								<span>24 de Julio de 2020</span>
+    							</p>
+    						</div>
+    					   </div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="col-lg d-none d-sm-block">
+
+    		<div class="row post mb-3">
+    			<div class="col-sm-4">
+    				<img class="img-fluid" src="img/cl-1.jpg" alt="">
+    			</div>
+    			<div class="col-sm-8">
+    				<h4>SpaceX Dragon.</h4>
+    				<p>Lorem ipsum dolor sit, amet  Dolore inventore.</p>
+    				<p class="post-meta d-flex justify-content-between">
+    					<span>Por SPACEX</span>
+    					<span>24 de Julio de 2020</span>
+    				</p>			
+    			</div>
+    		</div>
+
+    		<div class="row post mb-3">
+    			<div class="col-sm-4">
+    				<img class="img-fluid" src="img/cl-2.jpg" alt="">
+    			</div>
+    			<div class="col-sm-8">
+    				<h4>Falcon Heavy</h4>
+    				<p>Lorem ipsum dolor sit, amet  Dolore inventore.</p>
+    				<p class="post-meta d-flex justify-content-between">
+    					<span>Por SPACEX</span>
+    					<span>10 de Mayo 2020</span>
+    				</p>			
+    			</div>
+    		</div>
+
+    		<div class="row post mb-3">
+    			<div class="col-sm-4">
+    				<img class="img-fluid" src="img/cl-5.jpg" alt="">
+    			</div>
+    			<div class="col-sm-8">
+    				<h4>Tesla Cybertruck</h4>
+    				<p>Lorem ipsum dolor sit, amet  Dolore inventore.</p>
+    				<p class="post-meta d-flex justify-content-between">
+    					<span>Por TESLA</span>
+    					<span>15 de Enero de 2020</span>
+    				</p>			
+    			</div>
+    		</div>
+
+    		<div class="row post">
+    			<div class="col-sm-4">
+    				<img class="img-fluid" src="img/cl-4.jpg" alt="">
+    			</div>
+    			<div class="col-sm-8">
+    				<h4>Mars Perseverance 2020</h4>
+    				<p>Lorem ipsum dolor sit, amet  Dolore inventore.</p>
+    				<p class="post-meta d-flex justify-content-between">
+    					<span>Por NASA</span>
+    					<span>08 de Agosto de 2020</span>
+    				</p>			
+    			</div>
+    		</div>
+    	</div>
+    </section>
+			
+		</div>
+
+		<div class="section contact bg-dark mt-5">	
+			  <div class="container">
+			    <div class="row py-5 justify-content-center align-items-center">
+			    	<div class="col col-auto ">
+			    		<p class="text-white mb-0" >¿Necesitas ayuda? Estamos aqui mismo.</p>
+			    	</div>
+			    	<div class="col col-auto">
+			    		<a href="#" class="btn btn-primary">Contactanos</a>
+			    	</div>
+
+			    </div>	
+			  </div>
+		</div>
+	</section>
+
+<!-- Contacto -->
+	<div id="micontacto" class="container">
+		
+	
+		<section class="row formulario my-5">
+			<div class="col-12   w-100">
+				<h2 class="text-center">CONTACTANOS</h2>
+				<form>
+					<div class="form-group ">
+						<label for="nombre">Nombre</label>
+						<input class="form-control form-control-md" type="text" id="nombre" name="nombre" required>
+					</div>
+
+					<div class="form-group">
+						<label for="Apellido">Apellido</label>
+						<input class="form-control form-control-md" type="text" id="Apellido" name="Apellido" required>
+					</div>
+
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input class="form-control form-control-md" type="text" id="email" name="email" required>
+					</div>
+
+					<div class="form-group">
+						<label for="mensaje">Mensaje</label>
+						<textarea class="form-control " id="mensaje" name="mensaje" required></textarea>
+					</div>
+
+					<input type="submit" class="btn btn-primary my-2 flex-center" value="Enviar">
+				</form>
+			</div>	 
+		</section>
+		</div>
+	</section>
+
+<!-- Footer -->
+
+	<footer class="bg-primary">
+		<div class="container">
+			<div class="row justify-content-md-between align-items-center py-3">
+				<div class="col-md-4 text-center text-md-left order-md-0 order-1 my-4 my-md-0">
+					<p class="text-white mb-0 "><small>&copy; Todos los derechos reservados</small></p>
+				</div>
+
+				<div class="col-md-4">
+					<ul class="nav justify-content-center">
+						<li class="nav-item">
+							<a href="" class="nav-link text-white">Tienda</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link text-white">Nosotros</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link text-white">Contacto</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4 text-md-right text-center order-2 order-md-0">
+					<a href="https://www.facebook.com" class="text-white mr-1">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="https://www.twitter.com" class="text-white mr-1">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="https://www.youtube.com" class="text-white mr-1">
+						<i class="fab fa-youtube"></i>
+					</a>
+					<a href="https://www.instagram.com" class="text-white">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
